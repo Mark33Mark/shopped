@@ -6,7 +6,7 @@ import { UPDATE_PRODUCTS } from "../../utils/actions";
 import { useQuery } from "@apollo/client";
 import { QUERY_PRODUCTS } from "../../utils/queries";
 import { idbPromise } from "../../utils/helpers";
-import spinner from "../../assets/spinner.gif";
+import spinner from "../../assets/spinner_white.gif";
 
 // disabled for refactoring to Redux
 // import { useStoreContext } from "../../utils/GlobalState";
@@ -68,14 +68,15 @@ function ProductList() {
               price={product.price}
               quantity={product.quantity}
             />
-           ) )}
+          ) 
+        )}
         </div>
-       ) : ( 
-        <h3>You haven"t added any products yet!</h3>
-       )}
+      ) : ( 
+        <h3>You haven't added any products yet!</h3>
+      )}
       {loading ? <img src={spinner} alt="loading" /> : null}
     </div>
-   );
+  );
 }
 
 export default ProductList;
