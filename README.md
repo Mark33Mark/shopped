@@ -49,9 +49,16 @@
 The portfolio satisfies all of the user acceptance criteria as listed in the [Checklist](#10-checklist) below.  
 
 
-### Screengrab  
+### **Screengrabs**  
 
+### Landing Page
+![Landing Page](./assets/screengrab1.jpg)  
 
+###  Logged In and Items In Cart
+![Logged In and Items In Cart](./assets/screengrab2.jpg)  
+
+### Transaction History
+![Transaction History](./assets/screengrab3.jpg)  
 
 ---
 
