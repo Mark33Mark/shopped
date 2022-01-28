@@ -1,7 +1,10 @@
 {
-  "name": "mern-shopping",
+  "name": "shopp3d",
   "version": "1.0.0",
-  "description": "",
+  "description": "An e-commerce application built around a MERN stack.",
+  "engines": {
+    "npm": "7.x"
+  },
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -14,6 +17,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^7.0.0"
   }
 }
